@@ -12,7 +12,7 @@ import styles from './Navbar.module.css';
 const theme = createMuiTheme({
     palette: {
         primary: {
-            main: 'rgba(93, 193, 185, .7)'
+            main: 'rgba(93, 193, 185, .6)'
             ,
         },
         secondary: {
