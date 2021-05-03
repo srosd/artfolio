@@ -1,5 +1,23 @@
+.main {
+    padding: 1vw;
+    margin: auto 2vw;
+}
+
 .slide {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    border-bottom: 4px solid black;
+}
+.product {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    object-position: top;
+    margin: 4vw auto;
+    border-radius: 2vw;
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.40);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.40);
+    box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.40);
+    cursor: pointer; /*PROVISIONAL*/
 }
